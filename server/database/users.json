@@ -1,0 +1,21 @@
+{
+  "data": [
+    {
+      "name": "lam01662052827@gmai.com",
+      "password": "$2b$11$4MqWity1pdm.xclfdjTy6.Oo2JpohdhAAFgk6Hh5VjqIeyMKFnntq",
+      "email": "lam01662052827@gmail.com",
+      "special": true
+    },
+    {
+      "name": "lamjkjk",
+      "password": "$2b$11$k4gITRQkJImYnil2JIgcxuYZ4ukqAObDCfc2RX0aXYPyaxaShTvQ.",
+      "email": "lam01662052827@gmail.com"
+    },
+    {
+      "name": "lam01662052827@gmail.com",
+      "password": "$2b$11$Przw13bE9h1ClgpBradwLeflHh8PFkKCK2ZOu7MLlgS4Z7VLUl/G.",
+      "email": "test",
+      "special": true
+    }
+  ]
+}

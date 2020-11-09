@@ -1,0 +1,55 @@
+    // socket.on("newCar", (name) => {
+    //     let yourName = name;
+    //     //let right = false;
+    //     let kq;
+    //     dbLogin.then(config => {
+    //         kq = config.get("user")
+    //               .find({name : yourName})
+    //               .value()
+    //     })
+    //     .catch(error => console.log(error));
+
+    //     if(kq.name === undefined || false) {
+
+    //     }
+    //     else {
+    //         array_position.push(kq.name);
+    //         let dt_will_send = {
+    //             name : kq.name,
+    //             position : array_position
+    //         }
+
+    //         EventEmitterLocal.emit("name", dt_will_send);
+    //     }
+    // })
+
+/**
+  * Các sự kiện socket -->
+  *     newCar
+  *     moveCar 
+*/
+
+/**
+ * Các sự kiện server phát về cho người dùng
+ *      position-nofi --> esp8266 sẽ lắng nghe sự kiện này --> Thông báo vị trí
+ *      user-login --> gửi về cho android, hoạt động khi nghi ngờ người dùng chưa đăng nhập
+ *      your-position --> gửi về cho android, cập nhập vị trí để xe của người dùng
+ *      Car-DTT --> Xe đã tồn tại, gửi về cho android
+ *      DoYouAHacker --> Sự kiện phát ra khi chuỗi chứng thực là sai, android
+ *      moveCar-complete --> Lấy xe thành công, trả về cho android
+ *      guess-at --> Máy ghi ngờ có người đã lấy xe
+ *      noCar --> Vẫn chưa có xe, android
+*/
+
+// server.on("updrage", function upgrade(request, socket, head) {
+//     const pathname = url.parse(request.url).pathname;
+
+//     console.log(pathname);
+//     if(pathname === "/streaming") {
+//         ws.handleUpgrade(request, socket, head, function done(ws1) {
+//             ws.emit("connection", ws1, request);
+//         })
+//     }
+//     else
+//         socket.destroy();
+// });
